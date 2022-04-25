@@ -50,7 +50,6 @@ describe('Tests for Store API', function(){
             expect(response.body).to.have.property('sold')
             expect(response.body).to.have.property('string')
             expect(response.body).to.have.property('available')
-            expect(response.body).to.have.property('Available')
             expect(response.body).to.have.property('status')
         })
     })
